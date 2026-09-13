@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Beng — September 14 ❤️</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:#0d090b;color:#f8edf1;font-family:Montserrat,Arial,sans-serif;overflow-x:hidden}
+.hero{min-height:100vh;display:flex;align-items:flex-end;padding:8vw;position:relative;overflow:hidden;background:linear-gradient(to top,rgba(13,9,11,.95),rgba(13,9,11,.15) 65%,rgba(13,9,11,.25)),url("photos/photo4.jpg") center/cover}
+.hero-content{position:relative;z-index:2;max-width:850px}
+.eyebrow,.kicker{font-size:.72rem;letter-spacing:5px;text-transform:uppercase;color:#e8b8c8}
+.eyebrow{margin-bottom:20px}
+h1,h2,h3,.script{font-family:"Cormorant Garamond",serif}
+h1{font-size:clamp(4rem,12vw,9rem);line-height:.78;font-weight:500}
+.hero-name{font-size:clamp(1.2rem,3vw,2rem);letter-spacing:4px;margin-top:28px;color:#f2ccd8}
+.hero-date{margin-top:10px;color:#c9aab5}
+.btn{margin-top:30px;border:1px solid rgba(255,255,255,.5);background:rgba(255,255,255,.08);color:#fff;padding:14px 25px;border-radius:40px;cursor:pointer;font:500 .85rem Montserrat;letter-spacing:1px;backdrop-filter:blur(8px);transition:.3s}
+.btn:hover{background:#fff;color:#28151d;transform:translateY(-3px)}
+.music{position:fixed;right:20px;top:20px;z-index:20;padding:10px 15px;border:1px solid rgba(255,255,255,.25);border-radius:30px;background:rgba(20,12,16,.72);backdrop-filter:blur(12px);font-size:.72rem}
+.music button{background:none;border:0;color:#fff;cursor:pointer}
+section{max-width:1100px;margin:auto;padding:100px 22px}
+.intro{text-align:center;max-width:800px;margin:auto}
+.kicker{color:#c98da4;margin-bottom:15px}
+h2{font-size:clamp(2.7rem,6vw,5rem);font-weight:500;line-height:1}
+.intro p{margin-top:22px;color:#cdbbc1;line-height:1.9}
+.letter{margin-top:45px;padding:clamp(28px,6vw,65px);background:linear-gradient(145deg,#1b1115,#120c0f);border:1px solid rgba(238,188,205,.12);border-radius:4px;box-shadow:0 30px 80px rgba(0,0,0,.35)}
+.letter p{color:#e5d7dc;line-height:2;font-size:1rem;margin-bottom:20px}
+.letter .opening{font-family:"Cormorant Garamond",serif;font-size:2rem;color:#f3c6d5}
+.signature{font-family:"Cormorant Garamond",serif;font-size:2rem;color:#e7aabd;margin-top:28px}
+.memories{background:#f6edf0;color:#27171d;max-width:none}
+.memories-inner{max-width:1100px;margin:auto}
+.memories .kicker{color:#a25772}
+.memories h2{color:#442530}
+.caption{text-align:center;margin-top:18px;color:#80616b;font-size:.85rem}
+.gallery{margin-top:45px;display:grid;grid-template-columns:1.3fr .7fr;gap:16px}
+.card{overflow:hidden;background:#ddd;border-radius:3px;min-height:300px}
+.card img{width:100%;height:100%;min-height:300px;object-fit:cover;display:block;transition:transform .7s}
+.card:hover img{transform:scale(1.04)}
+.card.big{grid-row:span 2}
+.card.big img{min-height:620px}
+.reasons{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}
+.reason{padding:35px 25px;border-top:1px solid #5e3545;background:#130c10}
+.reason .num{font-size:.75rem;letter-spacing:3px;color:#bd8298}
+.reason h3{font-size:2rem;margin:15px 0 8px}
+.reason p{color:#bdaeb4;line-height:1.7;font-size:.9rem}
+.final{text-align:center;padding-top:30px}
+.final-box{padding:75px 25px;background:linear-gradient(rgba(25,12,18,.65),rgba(25,12,18,.88)),url("photos/photo2.jpg") center/cover;border:1px solid rgba(255,255,255,.13)}
+.final h2{font-size:clamp(3rem,7vw,6rem)}
+.final p{color:#ead9df;max-width:650px;margin:20px auto;line-height:1.9}
+#secret{display:none;max-width:650px;margin:35px auto 0;font-family:"Cormorant Garamond",serif;font-size:1.8rem;line-height:1.5;color:#ffd6e2}
+footer{text-align:center;padding:45px 20px;color:#866b75;font-size:.75rem;letter-spacing:1px}
+.heart{position:fixed;bottom:-30px;z-index:10;pointer-events:none;animation:rise 5s linear forwards}
+@keyframes rise{to{transform:translateY(-110vh) rotate(360deg);opacity:0}}
+@media(max-width:700px){.hero{padding:28px 22px 55px}.gallery{grid-template-columns:1fr}.card.big{grid-row:auto}.card.big img,.card img{min-height:390px}.reasons{grid-template-columns:1fr}section{padding:75px 18px}}
+</style>
+</head>
+<body>
+    <div class="music">
+        <button id="musicBtn" type="button">
+            🎵 <span id="musicText">Play our song</span>
+        </button>
+    
+        <audio id="song" loop preload="auto">
+            <source src="./music.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+    </div>
+
+<header class="hero">
+<div class="hero-content">
+<div class="eyebrow">A birthday letter from Imji</div>
+<h1>Happy<br>Birthday</h1>
+<div class="hero-name">BENG, MY LOVE ❤️</div>
+<div class="hero-date">September 14 · 22nd Birthday</div>
+<button class="btn" onclick="document.getElementById('letter').scrollIntoView()">Read my letter ↓</button>
+</div>
+</header>
+
+<section id="letter">
+<div class="intro">
+<div class="kicker">For the girl I choose, again and again</div>
+<h2>Almost five years<br>of us.</h2>
+<p>From the little moments to the memories we never planned, every year with you became a part of my story.</p>
+</div>
+<div class="letter">
+<p class="opening">Happy birthday, my love, my little cute girl, my asawa. ❤️</p>
+<p>First of all, I want to say sorry dahil wala ako maibigay sa'yo ngayong kaarawan mo. Sorry, eto lang kasi ang paraan na kaya kong gawin sa ngayon. Hindi man ito kasing espesyal ng ibang regalo, ginawa ko ito para iparamdam sa'yo na special ka sa akin.</p>
+<p>Salamat, love, sa pagmamahal na walang kapalit. Salamat sa pagtanggap sa akin pabalik at sa pag-unawa. Hindi man ako perpektong lalaki at sobrang dami kong pagkukulang, nagawa mo pa rin akong mahalin. Hindi mo pinaramdam sa akin na iiwan mo ako.</p>
+<p>Sobrang saya ng puso ko simula nung nakilala kita. Pinili kong maging makakalimutin sa mga nakaraan natin para mas piliin kitang mahalin pa sa bawat araw na dumadaan. ❤️</p>
+<p>Salamat sa pagpaparamdam sa akin araw-araw na hindi ako nag-iisa. At salamat sa almost 5 years mo sa akin. Never mo pinaramdam na papalitan mo ako.</p>
+<p>Ayaw ko nang mag-drama, love. Hahaha. Wala kasing sapat na mensahe para sabihin kung gaano kita kamahal. Basta ang alam ko, pangako ko na hangga't buhay ako, hindi ka magiging mag-isa — puwera na lang kapag nag-aaway tayo. Hahahahaha. 😭❤️</p>
+<p>Enjoy your day, my love. You deserve to be happy, to be loved, and to be reminded of how important you are to me.</p>
+<p>Iloveyouuuu, my loveeee. Happy 22nd birthday. ❤️</p>
+<div class="signature">Love always,<br>Imji</div>
+</div>
+</section>
+
+<section class="memories">
+<div class="memories-inner">
+<div class="kicker">Our memories</div>
+<h2>The moments<br>I keep.</h2>
+<p class="caption">Five little pieces of almost five years together.</p>
+<div class="gallery">
+<div class="card big"><img src="photos/photo1.jpg" alt="Beng and Imji memory"></div>
+<div class="card"><img src="photos/photo2.jpg" alt="Beng and Imji memory"></div>
+<div class="card"><img src="photos/photo3.jpg" alt="Beng and Imji memory"></div>
+<div class="card"><img src="photos/photo4.jpg" alt="Beng and Imji memory"></div>
+<div class="card"><img src="photos/photo5.jpg" alt="Beng and Imji memory"></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="intro">
+<div class="kicker">Things I love about you</div>
+<h2>More than<br>I can say.</h2>
+</div>
+<div class="reasons">
+<div class="reason"><div class="num">01</div><h3>Your smile.</h3><p>The kind of smile that can make an ordinary moment feel like a memory worth keeping.</p></div>
+<div class="reason"><div class="num">02</div><h3>Your patience.</h3><p>Thank you for understanding me even when I am not easy to understand.</p></div>
+<div class="reason"><div class="num">03</div><h3>Your heart.</h3><p>You stayed, you cared, and you loved me through my imperfections. That means everything.</p></div>
+</div>
+</section>
+
+<section class="final">
+<div class="final-box">
+<div class="kicker">One last thing</div>
+<h2>For you, Beng. ❤️</h2>
+<p>Click the button. I saved one more little message for the birthday girl.</p>
+<button class="btn" onclick="reveal()">Open my last message</button>
+<div id="secret">“If I could choose my favorite chapter of my life,<br>I would still choose the one where I met you.”<br><br>Happy birthday, my asawa. ❤️<br>I love youuuu.</div>
+</div>
+</section>
+
+<footer>Made by Imji · September 14 · With all my heart ❤️</footer>
+
+<script>
+const audio = document.getElementById("song");
+const musicBtn = document.getElementById("musicBtn");
+const musicText = document.getElementById("musicText");
+
+let playing = false;
+
+musicBtn.addEventListener("click", async () => {
+    try {
+        if (!playing) {
+            await audio.play();
+
+            playing = true;
+            musicText.textContent = "Pause our song";
+            musicBtn.innerHTML = "⏸️ <span id='musicText'>Pause our song</span>";
+        } else {
+            audio.pause();
+
+            playing = false;
+            musicText.textContent = "Play our song";
+            musicBtn.innerHTML = "🎵 <span id='musicText'>Play our song</span>";
+        }
+    } catch (error) {
+        console.error("Music error:", error);
+
+        alert(
+            "Hindi ma-play ang music. Siguraduhin na ang music file ay nasa parehong folder ng index.html at ang pangalan ay music.mp3."
+        );
+    }
+});
+
+audio.addEventListener("ended", () => {
+    playing = false;
+    musicBtn.innerHTML = "🎵 <span id='musicText'>Play our song</span>";
+});
+function reveal(){
+ document.getElementById("secret").style.display="block";
+ for(let i=0;i<35;i++){
+  const h=document.createElement("div"); h.className="heart";
+  h.textContent=["❤️","💗","💕","✨"][Math.floor(Math.random()*4)];
+  h.style.left=Math.random()*100+"vw"; h.style.fontSize=(14+Math.random()*24)+"px";
+  h.style.animationDuration=(3+Math.random()*3)+"s"; document.body.appendChild(h);
+  setTimeout(()=>h.remove(),6500);
+ }
+}
+</script>
+</body>
+</html>
